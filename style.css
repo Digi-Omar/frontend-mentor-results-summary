@@ -1,0 +1,235 @@
+html{
+    font-size: 16px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Hanken Grotesk", sans-serif;
+    text-align: center;
+    color: #303b5a;
+}
+
+
+/* 
+==============
+HEADER STYLING 
+==============
+*/
+header{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(120,87,255);
+    background: linear-gradient(180deg, rgba(120,87,255,1) 2%, rgba(46,43,233,1) 42%); 
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 0 0 30px 30px;
+    /* margin-bottom: 20px; */
+}
+
+header h4{
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+
+header h3{
+    margin-bottom: 10px;
+}
+
+header .overall-score{
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(78,33,202);
+    background: linear-gradient(180deg, rgba(78,33,202,1) 3%, rgba(36,33,202,0.4) 25%);    
+    margin-bottom: 20px;
+}
+
+.overall-score h1{
+    font-size: 2.8rem;
+}
+
+.overall-score p{
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+header p{
+    font-size: 0.9rem;
+    opacity: 0.6;
+}
+
+
+
+/* 
+==================
+SECTION STYLING 
+==================
+*/
+
+section{
+    padding: 25px;
+}
+
+section h4{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Categories Styling */
+
+.categories{
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+}
+
+
+/* Inner Category Styling */
+.category{
+    display: flex;
+    align-items: center;
+}
+
+.category img{
+    margin-right: 7px;
+}
+
+.category p{
+    font-weight: 700;
+}
+
+.scores{
+    display: flex;
+    font-weight: 700;  
+}
+
+.total{
+    color: rgba(48, 59, 90, 0.6);
+}
+
+.actual-score{
+    margin-right: 7px;
+}
+
+/* Category Specific Styling */
+#reaction{
+    background-color: rgba(255, 87, 87, 0.08);
+}
+
+#memory{
+    background-color: rgba(255, 176, 31, 0.08);
+}
+
+#verbal{
+    background-color: rgba(0, 189, 145, 0.08);
+}
+
+#visual{
+    background-color: rgba(17, 37, 212, 0.08);
+}
+
+#reaction .category p{
+    color: #ff5757;
+}
+
+#memory .category p{
+    color: #ffb01f;
+}
+
+#verbal .category p{
+    color: #00bd91;
+}
+
+#visual .category p{
+    color: #1125d4;
+}
+
+
+/* 
+==================
+BUTTON STYLING 
+==================
+*/
+button{
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    background-color: #303b5a;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+button:hover{
+    background: rgb(120,87,255);
+    background: linear-gradient(180deg, rgba(120,87,255,1) 2%, rgba(46,43,233,1) 42%); 
+    cursor: pointer;
+}
+
+
+/* 
+==================
+FOOTER STYLING 
+==================
+*/
+footer{
+    padding: 30px;
+}
+
+.attribution a{
+    color: #4e21ca;
+    text-decoration: none;
+}
+
+
+@media (min-width: 500px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+   .container{
+    display: flex;
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+   }
+
+   header{
+    height: 100%;
+    width: 50%;
+    border-radius: 15px;
+    justify-content: center;
+   }
+
+   section{
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+   }
+   
+    
+}
+
+
+
+

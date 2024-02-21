@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h4>Your Result</h4>
+        <div class="overall-score">
+          <h1>76</h1>
+          <p>of 100</p>
+        </div>
+
+        <h3>Great</h3>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </header>
+
+      <section>
+        <h4 class="summary">Summary</h4>
+        <div id="reaction" class="categories">
+          <div class="category">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction-pic" />
+            <p>Reaction</p>
+          </div>
+          <div class="scores">
+            <p class="actual-score">80</p>
+            <p class="total">/ 100</p>
+          </div>
+        </div>
+
+        <div id="memory" class="categories">
+          <div class="category">
+            <img src="./assets/images/icon-memory.svg" alt="reaction-pic" />
+            <p>Memory</p>
+          </div>
+          <div class="scores">
+            <p class="actual-score">92</p>
+            <p class="total">/ 100</p>
+          </div>
+        </div>
+
+        <div id="verbal" class="categories">
+          <div class="category">
+            <img src="./assets/images/icon-verbal.svg" alt="reaction-pic" />
+            <p>Verbal</p>
+          </div>
+          <div class="scores">
+            <p class="actual-score">61</p>
+            <p class="total">/ 100</p>
+          </div>
+        </div>
+
+        <div id="visual" class="categories">
+          <div class="category">
+            <img src="./assets/images/icon-visual.svg" alt="reaction-pic" />
+            <p>Visual</p>
+          </div>
+          <div class="scores">
+            <p class="actual-score">72</p>
+            <p class="total">/ 100</p>
+          </div>
+        </div>
+
+        <button>Continue</button>
+      </section>
+    </div>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.linkedin.com/in/odogunmaro/">Digi Omar</a>.
+      </div>
+    </footer>
+  </body>
+</html>
